@@ -1,0 +1,289 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-11T06:48:16.503Z",
+        "line": 11,
+        "name": "Chekck Member login functinality with valid credentials",
+        "description": "",
+        "id": "check-member-login-functionality;chekck-member-login-functinality-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3483000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Member on home page",
+            "match": {
+              "location": "StepDefinitions.MemberStepDefinitions.MemberLoginSteps.member_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 194000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Member enters valid 7095005155 and 803114",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7095005155",
+                  "offset": 20
+                },
+                {
+                  "val": "803114",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefinitions.MemberStepDefinitions.MemberLoginSteps.member_enters_valid_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3090000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks on login button",
+            "match": {
+              "location": "StepDefinitions.MemberStepDefinitions.MemberLoginSteps.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 771000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Member should navigated to dashboard page",
+            "match": {
+              "location": "StepDefinitions.MemberStepDefinitions.MemberLoginSteps.member_should_navigated_to_dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-11T06:48:24.140Z",
+        "line": 12,
+        "name": "Chekck Member login functinality with valid credentials",
+        "description": "",
+        "id": "check-member-login-functionality;chekck-member-login-functinality-with-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1839000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Member on home page",
+            "match": {
+              "location": "StepDefinitions.MemberStepDefinitions.MemberLoginSteps.member_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 171000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Member enters valid 7095005155 and 1234",
+            "match": {
+              "arguments": [
+                {
+                  "val": "7095005155",
+                  "offset": 20
+                },
+                {
+                  "val": "1234",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefinitions.MemberStepDefinitions.MemberLoginSteps.member_enters_valid_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3078000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks on login button",
+            "match": {
+              "location": "StepDefinitions.MemberStepDefinitions.MemberLoginSteps.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1273000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Member should navigated to dashboard page",
+            "match": {
+              "location": "StepDefinitions.MemberStepDefinitions.MemberLoginSteps.member_should_navigated_to_dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-11T06:48:30.509Z",
+        "line": 13,
+        "name": "Chekck Member login functinality with valid credentials",
+        "description": "",
+        "id": "check-member-login-functionality;chekck-member-login-functinality-with-valid-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 1840000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Member on home page",
+            "match": {
+              "location": "StepDefinitions.MemberStepDefinitions.MemberLoginSteps.member_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 274000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Member enters valid 9755768494 and 803114",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9755768494",
+                  "offset": 20
+                },
+                {
+                  "val": "803114",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefinitions.MemberStepDefinitions.MemberLoginSteps.member_enters_valid_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3066000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks on login button",
+            "match": {
+              "location": "StepDefinitions.MemberStepDefinitions.MemberLoginSteps.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 714000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Member should navigated to dashboard page",
+            "match": {
+              "location": "StepDefinitions.MemberStepDefinitions.MemberLoginSteps.member_should_navigated_to_dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-11T06:48:36.417Z",
+        "line": 14,
+        "name": "Chekck Member login functinality with valid credentials",
+        "description": "",
+        "id": "check-member-login-functionality;chekck-member-login-functinality-with-valid-credentials;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2285000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Member on home page",
+            "match": {
+              "location": "StepDefinitions.MemberStepDefinitions.MemberLoginSteps.member_on_home_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 191000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Member enters valid 8035858900 and 467380",
+            "match": {
+              "arguments": [
+                {
+                  "val": "8035858900",
+                  "offset": 20
+                },
+                {
+                  "val": "467380",
+                  "offset": 35
+                }
+              ],
+              "location": "StepDefinitions.MemberStepDefinitions.MemberLoginSteps.member_enters_valid_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3069000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks on login button",
+            "match": {
+              "location": "StepDefinitions.MemberStepDefinitions.MemberLoginSteps.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 728000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Member should navigated to dashboard page",
+            "match": {
+              "location": "StepDefinitions.MemberStepDefinitions.MemberLoginSteps.member_should_navigated_to_dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Check Member login Functionality",
+    "description": "",
+    "id": "check-member-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/MemberFeatures/MemberLogin.feature",
+    "tags": []
+  }
+]

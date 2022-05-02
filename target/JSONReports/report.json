@@ -1,0 +1,92 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-08T12:06:44.340Z",
+        "line": 3,
+        "name": "Check Hospital login successfully with valid credentials",
+        "description": "    Given: Hospital on login page\n    When: Hospital enters username and password\n    And: click on login button\n    Then: Hospital should navigated to Hospital dashboard page",
+        "id": "feature-to-check-hospital-login-functionality;check-hospital-login-successfully-with-valid-credentials",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": []
+      }
+    ],
+    "name": "Feature to check Hospital login functionality",
+    "description": "",
+    "id": "feature-to-check-hospital-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/HospitalLogin.feature",
+    "tags": []
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-08T12:06:44.490Z",
+        "line": 3,
+        "name": "Check login successfully with valid redentails",
+        "description": "",
+        "id": "feature-to-member-login-funtionality;check-login-successfully-with-valid-redentails",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 2000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "Member is login page",
+            "match": {
+              "location": "StepDefinitions.MemberLoginSteps.member_is_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Member enters username and password",
+            "match": {
+              "location": "StepDefinitions.MemberLoginSteps.member_enters_username_and_password()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "clicks on login button",
+            "match": {
+              "location": "StepDefinitions.MemberLoginSteps.clicks_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Member is navigated to the dashboardpage",
+            "match": {
+              "location": "StepDefinitions.MemberLoginSteps.member_is_navigated_to_the_dashboardpage()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Feature to Member login funtionality",
+    "description": "",
+    "id": "feature-to-member-login-funtionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/MemberLogin.feature",
+    "tags": []
+  }
+]

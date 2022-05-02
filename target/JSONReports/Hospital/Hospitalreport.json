@@ -1,0 +1,318 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2022-04-11T12:53:51.470Z",
+        "line": 12,
+        "name": "Check Hospital login successfully with valid credentials",
+        "description": "",
+        "id": "feature-to-check-hospital-login-functionality;check-hospital-login-successfully-with-valid-credentials;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 3741000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Hospital on login page",
+            "match": {
+              "location": "StepDefinitions.HospitalStepDefinitions.HospitalLoginSteps.hospital_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 208000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Hospital enters 9346078959 and 1234",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9346078959",
+                  "offset": 16
+                },
+                {
+                  "val": "1234",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefinitions.HospitalStepDefinitions.HospitalLoginSteps.hospital_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 716000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on login button",
+            "match": {
+              "location": "StepDefinitions.HospitalStepDefinitions.HospitalLoginSteps.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31266000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Hospital should navigated to Hospital dashboard page",
+            "match": {
+              "location": "StepDefinitions.HospitalStepDefinitions.HospitalLoginSteps.hospital_should_navigated_to_hospital_dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HosMandatory"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-11T12:54:27.511Z",
+        "line": 13,
+        "name": "Check Hospital login successfully with valid credentials",
+        "description": "",
+        "id": "feature-to-check-hospital-login-functionality;check-hospital-login-successfully-with-valid-credentials;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2119000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Hospital on login page",
+            "match": {
+              "location": "StepDefinitions.HospitalStepDefinitions.HospitalLoginSteps.hospital_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 205000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Hospital enters 9346078959 and 12345",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9346078959",
+                  "offset": 16
+                },
+                {
+                  "val": "12345",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefinitions.HospitalStepDefinitions.HospitalLoginSteps.hospital_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 247000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on login button",
+            "match": {
+              "location": "StepDefinitions.HospitalStepDefinitions.HospitalLoginSteps.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31025000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Hospital should navigated to Hospital dashboard page",
+            "match": {
+              "location": "StepDefinitions.HospitalStepDefinitions.HospitalLoginSteps.hospital_should_navigated_to_hospital_dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HosMandatory"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-11T12:55:01.111Z",
+        "line": 14,
+        "name": "Check Hospital login successfully with valid credentials",
+        "description": "",
+        "id": "feature-to-check-hospital-login-functionality;check-hospital-login-successfully-with-valid-credentials;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2026000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Hospital on login page",
+            "match": {
+              "location": "StepDefinitions.HospitalStepDefinitions.HospitalLoginSteps.hospital_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 265000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Hospital enters 9354661256 and 1234",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9354661256",
+                  "offset": 16
+                },
+                {
+                  "val": "1234",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefinitions.HospitalStepDefinitions.HospitalLoginSteps.hospital_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 194000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on login button",
+            "match": {
+              "location": "StepDefinitions.HospitalStepDefinitions.HospitalLoginSteps.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 31065000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Hospital should navigated to Hospital dashboard page",
+            "match": {
+              "location": "StepDefinitions.HospitalStepDefinitions.HospitalLoginSteps.hospital_should_navigated_to_hospital_dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HosMandatory"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2022-04-11T12:55:34.670Z",
+        "line": 15,
+        "name": "Check Hospital login successfully with valid credentials",
+        "description": "",
+        "id": "feature-to-check-hospital-login-functionality;check-hospital-login-successfully-with-valid-credentials;;5",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2051000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Hospital on login page",
+            "match": {
+              "location": "StepDefinitions.HospitalStepDefinitions.HospitalLoginSteps.hospital_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 201000000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Hospital enters 9543138931 and 56238",
+            "match": {
+              "arguments": [
+                {
+                  "val": "9543138931",
+                  "offset": 16
+                },
+                {
+                  "val": "56238",
+                  "offset": 31
+                }
+              ],
+              "location": "StepDefinitions.HospitalStepDefinitions.HospitalLoginSteps.hospital_enters_username_and_password(java.lang.String,java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 181000000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "click on login button",
+            "match": {
+              "location": "StepDefinitions.HospitalStepDefinitions.HospitalLoginSteps.click_on_login_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 30912000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Hospital should navigated to Hospital dashboard page",
+            "match": {
+              "location": "StepDefinitions.HospitalStepDefinitions.HospitalLoginSteps.hospital_should_navigated_to_hospital_dashboard_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@HosMandatory"
+          }
+        ]
+      }
+    ],
+    "name": "Feature to check Hospital login functionality",
+    "description": "",
+    "id": "feature-to-check-hospital-login-functionality",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/HospitalFeatures/HospitalLogin.feature",
+    "tags": [
+      {
+        "name": "@HosMandatory",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]

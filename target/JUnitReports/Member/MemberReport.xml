@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="26.331">
+<testcase classname="Check Member login Functionality" name="Chekck Member login functinality with valid credentials" time="7.621">
+<system-out><![CDATA[Given Member on home page...................................................passed
+When Member enters valid 7095005155 and 803114..............................passed
+And clicks on login button..................................................passed
+Then Member should navigated to dashboard page..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check Member login Functionality" name="Chekck Member login functinality with valid credentials 2" time="6.369">
+<system-out><![CDATA[Given Member on home page...................................................passed
+When Member enters valid 7095005155 and 1234................................passed
+And clicks on login button..................................................passed
+Then Member should navigated to dashboard page..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check Member login Functionality" name="Chekck Member login functinality with valid credentials 3" time="5.898">
+<system-out><![CDATA[Given Member on home page...................................................passed
+When Member enters valid 9755768494 and 803114..............................passed
+And clicks on login button..................................................passed
+Then Member should navigated to dashboard page..............................passed
+]]></system-out>
+</testcase>
+<testcase classname="Check Member login Functionality" name="Chekck Member login functinality with valid credentials 4" time="6.28">
+<system-out><![CDATA[Given Member on home page...................................................passed
+When Member enters valid 8035858900 and 467380..............................passed
+And clicks on login button..................................................passed
+Then Member should navigated to dashboard page..............................passed
+]]></system-out>
+</testcase>
+</testsuite>
