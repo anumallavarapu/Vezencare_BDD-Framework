@@ -10,7 +10,7 @@ import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import hospitalPages.HospitalLoginPage;
+import HospitalPageObjects.HospitalLoginPage;
 import io.cucumber.java.en.*;
 
 public class HospitalLoginSteps {

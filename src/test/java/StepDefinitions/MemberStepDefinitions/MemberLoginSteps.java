@@ -18,7 +18,7 @@ public class MemberLoginSteps {
 	
 	{
 		
-	System.setProperty("webdriver.chrome.driver", "G:\\Eclipse-My Workspace\\VezenCare_BDDFrameWork\\src\\test\\resources\\Drivers\\chromedriver.exe");	
+	System.setProperty("webdriver.chrome.driver", System.getProperty("user.dir")+"//src//test//resources//Drivers/chromedriver.exe");	
 		
 	driver=new ChromeDriver();
 	
@@ -30,7 +30,7 @@ public class MemberLoginSteps {
 	
 
 	@When("^Member enters valid (.*) and (.*)")
-	public void member_enters_valid_username_and_password(String username,String password) 
+	public void member_enters_valid_username_and_password12(String username,String password) 
 	{ 
 	   System.out.println("Member enters valid username and password");
 	   

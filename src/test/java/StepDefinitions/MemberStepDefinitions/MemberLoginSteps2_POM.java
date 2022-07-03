@@ -5,11 +5,11 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import MemberPage.MemberPageLogin;
+import MemberPageObjects.MemberPageLogin;
 import io.cucumber.java.en.*;
 
 public class MemberLoginSteps2_POM {
-	
+/*	
 	WebDriver driver=null;;
 	MemberPageLogin login;
 	
@@ -92,6 +92,6 @@ public class MemberLoginSteps2_POM {
 		
 		driver.quit();
 	}
-
+*/
 
 }

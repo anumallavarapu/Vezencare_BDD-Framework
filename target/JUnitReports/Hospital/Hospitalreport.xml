@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="136.761">
-<testcase classname="Feature to check Hospital login functionality" name="Check Hospital login successfully with valid credentials" time="36.024">
-<system-out><![CDATA[Given Hospital on login page................................................passed
+<testsuite errors="0" failures="0" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="4" time="144.117">
+    <testcase classname="Feature to check Hospital login functionality" name="Check Hospital login successfully with valid credentials" time="37.902">
+        <system-out><![CDATA[Given Hospital on login page................................................passed
 When Hospital enters 9346078959 and 1234....................................passed
 And click on login button...................................................passed
 Then Hospital should navigated to Hospital dashboard page...................passed
 ]]></system-out>
-</testcase>
-<testcase classname="Feature to check Hospital login functionality" name="Check Hospital login successfully with valid credentials 2" time="33.6">
-<system-out><![CDATA[Given Hospital on login page................................................passed
+    </testcase>
+    <testcase classname="Feature to check Hospital login functionality" name="Check Hospital login successfully with valid credentials 2" time="34.31">
+        <system-out><![CDATA[Given Hospital on login page................................................passed
 When Hospital enters 9346078959 and 12345...................................passed
 And click on login button...................................................passed
 Then Hospital should navigated to Hospital dashboard page...................passed
 ]]></system-out>
-</testcase>
-<testcase classname="Feature to check Hospital login functionality" name="Check Hospital login successfully with valid credentials 3" time="33.558">
-<system-out><![CDATA[Given Hospital on login page................................................passed
+    </testcase>
+    <testcase classname="Feature to check Hospital login functionality" name="Check Hospital login successfully with valid credentials 3" time="36.147">
+        <system-out><![CDATA[Given Hospital on login page................................................passed
 When Hospital enters 9354661256 and 1234....................................passed
 And click on login button...................................................passed
 Then Hospital should navigated to Hospital dashboard page...................passed
 ]]></system-out>
-</testcase>
-<testcase classname="Feature to check Hospital login functionality" name="Check Hospital login successfully with valid credentials 4" time="33.362">
-<system-out><![CDATA[Given Hospital on login page................................................passed
+    </testcase>
+    <testcase classname="Feature to check Hospital login functionality" name="Check Hospital login successfully with valid credentials 4" time="35.415">
+        <system-out><![CDATA[Given Hospital on login page................................................passed
 When Hospital enters 9543138931 and 56238...................................passed
 And click on login button...................................................passed
 Then Hospital should navigated to Hospital dashboard page...................passed
 ]]></system-out>
-</testcase>
+    </testcase>
 </testsuite>
